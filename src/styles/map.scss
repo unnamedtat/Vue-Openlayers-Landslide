@@ -1,0 +1,92 @@
+.my-full-screen {
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+}
+button.my-full-screen-false, button.my-full-screen-true,button.my-zoom-out, button.my-zoom-in {
+  background-color: rgba(0, 101, 178, 0.71);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  &:hover {
+    color: #000000;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  }}
+
+.my-zoom {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  gap: 5px;
+}
+#layerSwitcher {
+  position: absolute;
+  top: 8em;
+  left: 1.5em;
+  width: 300px;
+  height: 160px;
+  background-color: rgba(204, 204, 204, 0.32); /* 使用半透明的白色作为背景颜色 */
+  z-index: 990;
+  border: none; /* 去掉边框 */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* 添加一个浅色的阴影 */
+  border-radius: 15px; /* 添加一个15像素的圆角 */
+  padding: 20px; /* 添加一个10像素的内边距 */
+  color: white; /* 设置字体颜色为白色 */
+}
+/* 隐藏默认的checkbox */
+#layerSwitcher input[type="checkbox"] {
+  display: none;
+}
+#layerSwitcher label {
+  display: block;
+}
+
+/* 创建一个自定义的checkbox */
+#layerSwitcher input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 2px solid #2196F3;
+  border-radius: 4px;
+}
+
+/* 当checkbox被选中时，添加一个对勾 */
+#layerSwitcher input[type="checkbox"]:checked + label::before {
+  content: "\2713";
+  color: white;
+  background-color: #2196F3;
+}
+
+/* 当鼠标悬停在checkbox上时，添加一个浅色的背景 */
+#layerSwitcher input[type="checkbox"]:hover + label::before {
+  background-color: #bbdefb;
+}
+#buttonToggleLS{
+  top: 12em;
+  left: 1em;
+  z-index: 999;
+}
+#buttonToggle{
+  bottom: 12em;
+  left: 1em;
+  z-index: 999;
+}
+#buttonToggleChart{
+  bottom: 10em;
+  right: 1em;
+  z-index: 999;
+}
+
