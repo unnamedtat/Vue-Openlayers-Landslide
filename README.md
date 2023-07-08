@@ -3,7 +3,7 @@
 ![Image text](https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/1ea9e4204c5ee53b0934320b9a76c8ffd04cfa08/src/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-07-08%20095341.png)
 ![Image text](https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/29b9f13d3ddcd0edb55be6865b6957fafe4d4dd3/src/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-07-08%20095421.png)
 
-实现了一些图层的基本操作和简单的属性查询等功能。
+依托课程设计作业，这几天好好学了一下前端的入门知识，实现了一些图层的基本操作和简单的属性查询等功能。
 # 说明
 src/global.js里面的图层（已上传数据）需要自行发布或去NASA和地图选择器中寻找对应服务，影像底图需要token。
 # vue-admin-template
