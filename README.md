@@ -1,8 +1,6 @@
 # 一个Vue+openlayers的纯前端小小小小小菜狗程序作业
 
-![图片](https://github.com/unnamedtat/Vue-Openlayers-Landslide/assets/90074240/7d60fbe6-a67d-4333-b758-fa7b609f9f07)
-![图片](https://github.com/unnamedtat/Vue-Openlayers-Landslide/assets/90074240/6bcaea22-1523-42d9-8853-dcd54a36f728)
-
+![Image text]https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/1ea9e4204c5ee53b0934320b9a76c8ffd04cfa08/src/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-07-08%20095341.png
 
 实现了一些图层的基本操作和简单的属性查询等功能。
 # 说明
