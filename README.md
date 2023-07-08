@@ -1,3 +1,12 @@
+# 一个Vue+openlayers的纯前端小小小小小菜狗程序作业
+
+![图片](https://github.com/unnamedtat/Vue-Openlayers-Landslide/assets/90074240/7d60fbe6-a67d-4333-b758-fa7b609f9f07)
+![图片](https://github.com/unnamedtat/Vue-Openlayers-Landslide/assets/90074240/6bcaea22-1523-42d9-8853-dcd54a36f728)
+
+
+实现了一些图层的基本操作和简单的属性查询等功能。
+# 说明
+src/global.js里面的图层（已上传数据）需要自行发布或去NASA和地图选择器中寻找对应服务，影像底图需要token。
 # vue-admin-template
 
 English | [简体中文](./README-zh.md)
