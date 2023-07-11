@@ -1,5 +1,6 @@
 # 一个Vue+openlayers的纯前端小小小小小菜狗程序作业
 
+![Image text](https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/79b34f49e69e0b7a9aded8da31567a9eeb29837a/src/%E5%AA%92%E4%BD%935%2000_00_00-00_00_30~1.gif)
 ![Image text](https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/1ea9e4204c5ee53b0934320b9a76c8ffd04cfa08/src/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-07-08%20095341.png)
 ![Image text](https://github.com/unnamedtat/Vue-Openlayers-Landslide/blob/29b9f13d3ddcd0edb55be6865b6957fafe4d4dd3/src/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-07-08%20095421.png)
 
